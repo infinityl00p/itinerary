@@ -1,8 +1,8 @@
 # How to run
-`cd client` -> `npm i`
+`cd client` -> `yarn`
 
-`cd ..` -> `npm i`
+`cd ..` -> `yarn`
 
-`npm start`
+`yarn start`
 
 `http://localhost:3000`
