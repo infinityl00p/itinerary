@@ -1,0 +1,22 @@
+#side-nav {
+  border-right: 1px solid #eeeeee;
+  height: 100vh;
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.side-nav-item {
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.side-nav-item.active {
+  font-weight: bold;
+}
+
+.side-nav-item:hover {
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import configureStore from './store/configureStore';
 
-import './index.css';
+import './styles/index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 
