@@ -4,8 +4,8 @@ import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
 
 import * as actions from './actions/actions';
-import FormContainer from './components/FormContainer';
-import WeddingContainer from './components/WeddingContainer';
+import FormContainer from './components/Form/FormContainer';
+import WeddingContainer from './components/Wedding/WeddingContainer';
 
 class App extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import * as actions from '../actions/actions';
+import * as actions from '../../actions/actions';
 
 export default class WeddingContainer extends React.Component {
   render() {
