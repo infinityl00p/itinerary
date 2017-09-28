@@ -2,8 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
-
 import * as actions from './actions/actions';
+
+import TopNav from './components/TopNav';
 import FormContainer from './components/Form/FormContainer';
 import WeddingContainer from './components/Wedding/WeddingContainer';
 
@@ -25,6 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
+        <TopNav />
         { this.props.wedding.wedding_id === null ?
             this.renderFormContainer()
             :
