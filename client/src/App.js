@@ -9,7 +9,6 @@ import FormContainer from './components/Form/FormContainer';
 import WeddingContainer from './components/Wedding/WeddingContainer';
 
 class App extends React.Component {
-
   /** Opting to pass state down from top level component for clarity.
     * Doing it this way sort of defeats the purpose of the container component
     * pattern when used in conjunction with redux, but can change later. Container
