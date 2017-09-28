@@ -9,19 +9,14 @@ export default class SideNav extends React.Component {
     super();
 
     this.handleClick = this.handleClick.bind(this);
-
-    this.state = {
-      activeView: 'Home'
-    }
   }
 
   handleClick(view) {
-    this.setState({ activeView: view });
     this.props.renderView(view);
   }
 
   getActive(view) {
-    return view === this.state.activeView;
+    return view === this.props.activeView;
   }
 
   renderItems() {

@@ -15,7 +15,7 @@ export default {
   wedding: {
     wedding_id: 1,
     user_id: 1,
-    name: 'my wedding',
+    name: 'Sim & Wifey',
     events: [
       {
         id: 1,
