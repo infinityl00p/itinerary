@@ -1,4 +1,20 @@
 #top-nav {
   height: 70px;
   border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-left: 0;
+}
+#top-nav .title p {
+  font-size: 24px;
+  color: #0EBFE9;
+}
+
+#top-nav .title:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#top-nav .name {
+  font-size: 24px;
+  text-align: center;
 }

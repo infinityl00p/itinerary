@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <TopNav />
+        <TopNav name={this.props.wedding.name} />
         { this.props.wedding.wedding_id === null ?
             this.renderFormContainer()
             :
