@@ -24,7 +24,7 @@ export default class WeddingContainer extends React.Component {
   renderActiveView() {
     switch(this.state.activeView) {
       case 'Home':
-        return <HomeView />;
+        return <HomeView weddingStore={this.props.weddingStore} />;
       case 'Events':
         return <EventsView />;
       case 'Guests':

@@ -16,6 +16,7 @@ export default {
     wedding_id: 1,
     user_id: 1,
     name: 'Sim & Wifey',
+    date: 'Fri Sep 29 2018 15:01:08 GMT+0100 (BST)',
     events: [
       {
         id: 1,
