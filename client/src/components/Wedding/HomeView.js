@@ -58,7 +58,7 @@ export default class HomeView extends React.Component {
       <div id="home-view" className="col-md-8">
         <div className="title">
           <p className="name">{this.props.weddingStore.name}</p>
-          <p className="description">Your wedding event</p>
+          <p className="description">Your Wedding Event</p>
         </div>
         <div className="tasks">
           <p>Pending tasks</p>
