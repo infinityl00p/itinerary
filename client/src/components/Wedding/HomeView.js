@@ -2,6 +2,8 @@ import React from 'react';
 
 import HomeItem from './HomeItem';
 
+import '../../styles/HomeView.css';
+
 export default class HomeView extends React.Component {
   getDaysRemaining() {
     var weddingDate = new Date(this.props.weddingStore.date);

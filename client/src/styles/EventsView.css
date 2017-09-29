@@ -1,0 +1,104 @@
+#events-view {
+  margin-top: 20px;
+  padding: 0;
+}
+
+#events-view .title {
+  text-align: center;
+}
+
+#events-view .title .description {
+  font-size: 28px;
+}
+
+#events-view .title .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  color: #bbbbbb;
+}
+
+#events-view .events-list {
+  margin-left: 20px;
+}
+
+#events-view .events-container .empty-event-list {
+  text-align: center;
+  color: #bbbbbb;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#events-view .events-container .create-event-button p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 10px 5px 10px;
+  color: #0EBFE9;
+  background-color: #fafafa;
+  border: 1px solid #0EBFE9;
+  width: 200px;
+  margin-top: 20px;
+}
+
+#events-view .events-container .create-event-button p:hover {
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 3px solid #0EBFE9;
+  border-right: 3px solid #0EBFE9;
+}
+
+/* TODO: This is hack, center stuff correctly */
+#events-view .events-list {
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.event-item {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fafafa;
+  height: 300px;
+  margin: 20px 20px 0 0;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.event-item:hover {
+  border-right: 3px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+  cursor: pointer;
+}
+
+.event-item .name {
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.event-item .date {
+  font-size: 26px;
+}
+
+.event-item .location {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.event-item .time {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.event-item .guest-count {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.event-item .count {
+  font-weight: 500;
+}
