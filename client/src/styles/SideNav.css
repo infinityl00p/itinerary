@@ -11,14 +11,15 @@
   padding-top: 12px;
   border-bottom: 1px solid #eeeeee;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .side-nav-item.active {
-  font-weight: bold;
+  font-weight: 500;
   border-right: 5px solid #0EBFE9;
 }
 
 .side-nav-item:hover {
   cursor: pointer;
-  font-weight: bold;
+  font-weight: 500;
 }

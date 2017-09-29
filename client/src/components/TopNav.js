@@ -9,9 +9,6 @@ export default class TopNav extends React.Component {
         <div className="title col-md-3">
           <p>Wedding Itinerary</p>
         </div>
-        <div className="name col-md-3 col-md-offset-2">
-          <p>{this.props.name}</p>
-        </div>
       </div>
     );
   }

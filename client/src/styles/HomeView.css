@@ -1,0 +1,63 @@
+#home-view {
+  margin-top: 20px;
+  padding: 0;
+}
+
+#home-view .title {
+  text-align: center;
+}
+
+#home-view .title .name {
+  font-size: 28px;
+}
+
+#home-view .title .description {
+  font-size: 24px;
+  font-weight: 300;
+  color: #bbbbbb;
+}
+
+#home-view .items, #home-view .tasks {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+#home-view .items .summary, #home-view .tasks p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0EBFE9;
+  font-weight: 300;
+}
+
+#home-view .tasks .task-list p {
+  color: #bbbbbb;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.home-item {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fafafa;
+  height: 200px;
+  margin: 20px 20px 0 0;
+  text-align: center;
+}
+
+.home-item:hover {
+  border-right: 3px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+  cursor: pointer;
+}
+
+.home-item .counter {
+  padding-top: 30px;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.home-item .description {
+  font-size: 18px;
+  font-weight: 200;
+  text-transform: uppercase;
+}

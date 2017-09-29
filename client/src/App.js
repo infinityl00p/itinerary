@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   renderWeddingContainer() {
-    return <WeddingContainer store={this.props.wedding} />;
+    return <WeddingContainer weddingStore={this.props.wedding} />;
   }
 
   render() {
