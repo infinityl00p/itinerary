@@ -1,19 +1,16 @@
 import React from 'react';
 
+import EventItem from './EventItem';
+
 import '../../styles/EventsView.css';
 
 export default class EventsView extends React.Component {
-  constructor() {
-    super();
-
-  }
-
   handleCreateClick() {
     console.log('I will create an event');
   }
 
   renderEventsList() {
-    if (this.props.weddingStore.events.length > 0) {
+    if (this.props.weddingStore.events.length === 0) {
       return (
         <div className="empty-event-list">
           <p>You do not currently have any events scheduled.</p>
@@ -21,12 +18,32 @@ export default class EventsView extends React.Component {
         </div>
       );
     }
+
+    return (
+      <div className="row events-list">
+        {
+          this.props.weddingStore.events.map((event) => {
+            return (
+              <EventItem
+                data={event}
+                key={event.id}
+                name={event.name}
+                date={event.date}
+                time={event.time}
+                location={event.location}
+                guestCount={event.guests.length}
+              />
+            )
+          })
+        }
+      </div>
+    );
   }
 
   renderCreateEventButton() {
     // TODO: Make this into a button component
     return (
-      <div className="create-event-button" onClick={this.handleCreateClick}>
+      <div className="row create-event-button" onClick={this.handleCreateClick}>
         <p>Add a new event</p>
       </div>
     );
@@ -39,9 +56,9 @@ export default class EventsView extends React.Component {
           <p className="description">Your Scheduled Events</p>
           <p className="subheading">Click on an event below to view details or edit</p>
         </div>
-        <div className="events-list">
-          { this.renderEventsList() }
+        <div className="events-container">
           { this.renderCreateEventButton() }
+          { this.renderEventsList() }
         </div>
       </div>
     );

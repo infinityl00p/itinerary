@@ -21,12 +21,42 @@ export default {
       {
         id: 1,
         wedding_id: 1,
-        name: 'my wedding event 1',
-        date: 'my date',
-        time: 'my time',
-        location: 'my location',
+        name: 'Sim\'s Maiyan',
+        date: 'Tuesday, Sept 26',
+        time: '5:30 pm',
+        location: '6899 130 Street, Surrey',
         notes: 'string of notes',
         guests: [1, 2, 3]
+      },
+      {
+        id: 2,
+        wedding_id: 1,
+        name: 'Cocktail party',
+        date: 'Tuesday, Sept 26',
+        time: '5:30 pm',
+        location: '6899 130 Street, Surrey.',
+        notes: 'string of notes',
+        guests: [1, 2, 3, 3, 4, 1, 2, 3, 4]
+      },
+      {
+        id: 3,
+        wedding_id: 1,
+        name: 'Reception',
+        date: 'Tuesday, Sept 26',
+        time: '5:30 pm',
+        location: '6899 130 Street, Surrey.',
+        notes: 'string of notes',
+        guests: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
+      },
+      {
+        id: 4,
+        wedding_id: 1,
+        name: 'Fourth Event',
+        date: 'Tuesday, Sept 26',
+        time: '5:30 pm',
+        location: '6899 130 Street, Surrey.',
+        notes: 'string of notes',
+        guests: [1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3, 4]
       }
     ],
     guests: [
