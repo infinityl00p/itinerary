@@ -6,7 +6,7 @@ import '../../styles/EventsView.css';
 
 export default class EventsView extends React.Component {
   handleCreateClick() {
-    console.log('I will create an event');
+    console.log('I will create an event via modal');
   }
 
   renderEventsList() {
