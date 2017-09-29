@@ -30,7 +30,7 @@ export default {
       },
       {
         id: 2,
-        wedding_id: 1,
+        weddingId: 1,
         name: 'Cocktail party',
         date: 'Tuesday, Sept 26',
         time: '5:30 pm',
@@ -40,7 +40,7 @@ export default {
       },
       {
         id: 3,
-        wedding_id: 1,
+        weddingId: 1,
         name: 'Reception',
         date: 'Tuesday, Sept 26',
         time: '5:30 pm',
@@ -50,7 +50,7 @@ export default {
       },
       {
         id: 4,
-        wedding_id: 1,
+        weddingId: 1,
         name: 'Fourth Event',
         date: 'Tuesday, Sept 26',
         time: '5:30 pm',
@@ -62,19 +62,23 @@ export default {
     guests: [
       {
         id: 1,
-        group_id: 1,
-        wedding_id: 1,
+        groupId: 1,
+        weddingId: 1,
         name: 'guest name',
         isPrimary: true,
-        contact_type: 'email',
-        contact_info: 'my@mail.com'
+        contactType: 'email',
+        contactInfo: 'my@mail.com',
+        inviteSent: true,
+        events: [1, 2, 3, 4]
       },
       {
         id: 2,
-        group_id: 1,
-        wedding_id: 1,
+        groupId: 1,
+        weddingId: 1,
         name: 'guest name',
-        isPrimary: false
+        isPrimary: false,
+        inviteSent: false,
+        events: [1, 2, 3, 4]
       }
     ]
   },

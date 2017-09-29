@@ -13,7 +13,7 @@ export default class WeddingContainer extends React.Component {
     this.handleViewChange = this.handleViewChange.bind(this);
 
     this.state = {
-      activeView: 'Events'
+      activeView: 'Guests'
     }
   }
 
