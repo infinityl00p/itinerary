@@ -5,9 +5,8 @@ import GuestList from './GuestList';
 import '../../styles/GuestsView.css';
 
 export default class GuestsView extends React.Component {
-
   renderGuestList() {
-    if (this.props.weddingStore.guests.length > 0) {
+    if (this.props.weddingStore.guests.length === 0) {
       return (
         <div className="empty-guest-list">
           <p>You do not currently have any guests added.</p>
