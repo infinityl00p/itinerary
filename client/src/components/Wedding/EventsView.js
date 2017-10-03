@@ -27,11 +27,6 @@ export default class EventsView extends React.Component {
               <EventItem
                 data={event}
                 key={event.id}
-                name={event.name}
-                date={event.date}
-                time={event.time}
-                location={event.location}
-                guestCount={event.guests.length}
               />
             )
           })
