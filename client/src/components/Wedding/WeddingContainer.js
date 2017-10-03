@@ -13,7 +13,7 @@ export default class WeddingContainer extends React.Component {
     this.handleViewChange = this.handleViewChange.bind(this);
 
     this.state = {
-      activeView: 'Home'
+      activeView: 'Guests'
     }
   }
 
@@ -26,11 +26,11 @@ export default class WeddingContainer extends React.Component {
       case 'Home':
         return <HomeView weddingStore={this.props.weddingStore} />;
       case 'Events':
-        return <EventsView />;
+        return <EventsView weddingStore={this.props.weddingStore} />;
       case 'Guests':
-        return <GuestsView />;
+        return <GuestsView weddingStore={this.props.weddingStore} />;
       default:
-        return <HomeView />;
+        return <HomeView weddingStore={this.props.weddingStore} />;
     }
   }
 
